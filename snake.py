@@ -39,16 +39,16 @@ class Snake:
 
     def up(self):
         if self.head.heading() != DOWN:
-            self.head.setheading(90)
+            self.head.setheading(UP)
 
     def right(self):
         if self.head.heading() != LEFT:
-            self.head.setheading(0)
+            self.head.setheading(RIGHT)
 
     def left(self):
         if self.head.heading() != RIGHT:
-            self.head.setheading(180)
+            self.head.setheading(LEFT)
 
     def down(self):
         if self.head.heading() != UP:
-            self.head.setheading(270)
+            self.head.setheading(DOWN)
